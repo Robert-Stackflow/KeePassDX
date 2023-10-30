@@ -1,0 +1,22 @@
+KeePassDX is <b>open source</b>, <b>ad-free</b>. <b>Multi-format KeePass password manager</b>, the app allows saving and using passwords, keys and digital identities in a secure way, by integrating the Android design standards and <b>requires no internet connection</b>.
+
+<b>Features</b>
+ - Create database files / entries and groups.
+ - Support for .kdb and .kdbx files (version 1 to 4) with AES - Twofish - ChaCha20 - Argon2 algorithm.
+ - Compatible with the majority of alternative programs (KeePass, KeePassXC, KeeWeb, …).
+ - Allows opening and copying URI / URL fields quickly.
+ - Biometric recognition for fast unlocking (fingerprint / face unlock / …).
+ - One-time password management (HOTP / TOTP) for two-factor authentication (2FA).
+ - Material design with themes.
+ - Auto-Fill and integration.
+ - Field filling keyboard.
+ - Dynamic templates.
+ - History of each entry.
+ - Precise management of settings.
+ - Code written in native languages (Kotlin / Java / JNI / C).
+
+You can donate or buy the pro version for better service and a quick development of features you want: <a href="https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro">https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro</a>
+
+The project is constantly evolving. Do not hesitate to check the development status of the next updates: <a href="https://github.com/Kunzisoft/KeePassDX/projects">https://github.com/Kunzisoft/KeePassDX/projects</a>
+
+Send issues to: <a href="https://github.com/Kunzisoft/KeePassDX/issues">https://github.com/Kunzisoft/KeePassDX/issues</a>

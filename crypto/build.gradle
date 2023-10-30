@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.kunzisoft.encrypt'
+    compileSdkVersion 33
+    buildToolsVersion "33.0.2"
+    ndkVersion '26.1.10909125'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 33
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/jni/CMakeLists.txt"
+        }
+    }
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    // Crypto
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+
+    testImplementation "androidx.test:runner:$android_test_version"
+}

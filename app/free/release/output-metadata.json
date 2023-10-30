@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.kunzisoft.keepass.free",
+  "variantName": "freeRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 125,
+      "versionName": "4.0.2",
+      "outputFile": "app-free-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
